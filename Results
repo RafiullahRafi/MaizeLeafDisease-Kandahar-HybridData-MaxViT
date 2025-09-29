@@ -8,11 +8,11 @@ Weighted avg	0.98	0.97	0.97
 
 ## Results of field data without original-background using deep learning Multi-axis Vision Transformer model: 
 Class   	Precision	Recall	F1-score
- Blight 	1.00	1.00	1.00
- Spot	1.00	1.00	1.00
-Healthy 	1.00	1.00	1.00
-Macro avg	1.00	1.00	1.00
-Weighted avg	1.00	1.00	1.00
+Blight--1.00--1.00--1.00
+Spot  --1.00--1.00--1.00
+Healthy 1.00--1.00--1.00
+Macro avg     1.00--1.00--1.00
+Weighted avg	 1.00--1.00--1.00
 
 
 ### Results of hybrid dataset(PlantVillage data + Fiel data).
