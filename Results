@@ -1,0 +1,9 @@
+The MaxViT model was evaluated in its final stage using a combined dataset comprising both-
+real-field images and the public PlantVillage dataset,- 
+achieving highly satisfactory performance. 
+Class	Precision	Recall	F1-score
+Leaf Blight	0.99	0.99	0.99
+Healthy Leaf	0.96	0.98	0.97
+Leaf Spot	0.96	0.95	0.95
+Macro avg	0.97	0.97	0.97
+Weighted avg	0.98	0.98	0.98
