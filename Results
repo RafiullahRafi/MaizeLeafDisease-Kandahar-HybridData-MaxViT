@@ -7,3 +7,5 @@ Healthy Leaf	0.96	0.98	0.97
 Leaf Spot	0.96	0.95	0.95
 Macro avg	0.97	0.97	0.97
 Weighted avg	0.98	0.98	0.98
+
+![Confusion Matrix](results/figures/confusion_matrix.png)
