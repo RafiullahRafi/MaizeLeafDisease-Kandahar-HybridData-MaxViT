@@ -8,4 +8,11 @@ Leaf Spot	0.96	0.95	0.95
 Macro avg	0.97	0.97	0.97
 Weighted avg	0.98	0.98	0.98
 
-![Confusion Matrix](results/figures/confusion_matrix.png)
+## Results
+
+### Confusion Matrix
+![Confusion Matrix](results/figures/image_2025-09-29_190905966.png)
+
+![Confusion Matrix](image_2025-09-29_190905966.png)
+
+
