@@ -5,8 +5,9 @@ The MaxViT architecture was fine-tuned using advanced augmentation techniques-
 - and evaluated across training, validation, and test splits to ensure robust performance in real-world conditions.
 
 🔹 Model: MaxViT (Tiny RW 224)
+
 🔹 Frameworks/Libraries: PyTorch, timm, albumentations, scikit-learn, matplotlib, seaborn
-🔹 Datasets: Field data and Combined.
+
 🔹 Evaluation Metrics: Accuracy, F1-score, Precision, Recall, Confusion Matrix
 
 📥 You can download the trained model and dataset from the links below.
