@@ -1,1 +1,10 @@
+This dataset was collected and prepared by Rafiullah Rafi for research on corn (maize) leaf disease detection using deep learning and computer vision techniques.
+It contains high-quality images of corn leaves affected by different diseases (such as blight, leaf spot, and healthy label).
 
+The dataset aims to support academic studies and experiments in plant disease classification, agricultural AI applications, and precision farming.
+
+📥 You can download the dataset here and use it freely for research and educational purposes, with proper citation to the author.
+
+Author: Rafiullah Rafi
+Dataset Title: Corn Leaf Disease Dataset.
+Purpose: To enable AI-based classification of corn leaf diseases.
