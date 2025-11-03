@@ -7,7 +7,5 @@ This repository contains a hybrid dataset for maize (corn) leaf disease classifi
 This repository contains the trained MaxViT model for maize leaf disease classification using actual-field and comdined data (with and without background).  
 You can download or open the model notebook using the links below:
 
-- [📥 Download MaxViT Model Notebook](https://github.com/RafiullahRafi/MaizeLeafDisease-Kandahar-HybridData-MaxViT/raw/main/MaxViT_model_on_with_and_without_background_data.ipynb)
 - [🚀 Open in Google Colab](https://colab.research.google.com/github/RafiullahRafi/MaizeLeafDisease-Kandahar-HybridData-MaxViT/blob/main/MaxViT_model_on_with_and_without_background_data.ipynb)
 
-[📦 Download MaxViT Notebook (ZIP)](https://github.com/RafiullahRafi/MaizeLeafDisease-Kandahar-HybridData-MaxViT/releases/download/v1.0/MaxViT_model.zip)
