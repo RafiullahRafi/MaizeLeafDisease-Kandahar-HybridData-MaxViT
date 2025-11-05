@@ -7,3 +7,5 @@ You can download or open the model notebook using the links below:
 
 - [🚀 Open in Google Colab](https://colab.research.google.com/github/RafiullahRafi/MaizeLeafDisease-Kandahar-HybridData-MaxViT/blob/main/MaxViT_model_on_with_and_without_background_data.ipynb)
 
+-[Download dataset here](https://github.com/RafiullahRafi/MaizeLeafDisease-Kandahar-HybridData-MaxViT/blob/fb7df8fab2a32c934e746122c231e565b40331ca/Kdr_field_Dataset.zip)
+
