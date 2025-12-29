@@ -1,6 +1,6 @@
 # MaizeLeafDisease-Kandahar-HybridData-MaxViT
 
-This repository contains a hybrid dataset for maize (corn) leaf disease classification in Kandahar. It combines PlantVillage public data with field-collected data (with and without background). The dataset and experimental results are used to train, evaluate, and test the MaxViT deep learning model for automatic maize leaf disease detection.
+This repository contains a field-collected dataset for maize (corn) leaf disease classification in Kandahar. The dataset includes maize leaf images captured under real field conditions, both with natural backgrounds and with isolated leaf samples. The data and experimental results are used to train, evaluate, and test the MaxViT deep learning model for automatic maize leaf disease detection.
 
  
 You can download or open the model notebook using the links below:
