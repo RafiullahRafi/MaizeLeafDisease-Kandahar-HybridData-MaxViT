@@ -1,6 +1,18 @@
-# MaizeLeafDisease-Kandahar-HybridData-MaxViT
+## Experimental Results
 
-This repository contains a field-collected dataset for maize (corn) leaf disease classification in Kandahar. The dataset includes maize leaf images captured under real field conditions, both with natural backgrounds and with isolated leaf samples. The data and experimental results are used to train, evaluate, and test the MaxViT deep learning model for automatic maize leaf disease detection.
+The performance of multiple deep learning architectures was evaluated for maize leaf disease classification using a field-based and hybrid dataset. The experiments were conducted under different training configurations, including variations in batch size, input image resolution, and gradient accumulation. Model performance was assessed using Accuracy (A), Precision (P), Recall (R), and F1-score metrics. The comparative results demonstrate the effectiveness of transformer-based and hybrid CNN-transformer models in capturing disease-related visual patterns under real-field conditions.
+
+### Model Performance Comparison
+
+| Model                   | Batch Size | Image Size | Accumulation Gradient | Accuracy | Precision | Recall | F1-score |
+|-------------------------|------------|------------|------------------------|----------|-----------|--------|----------|
+| EfficientNet-B5         | 8          | 456        | 1                      | 0.94     | 0.9251    | 0.9329 | 0.9263   |
+| EfficientNet-B6         | 4          | 528        | 2                      | 0.96     | 0.9583    | 0.9500 | 0.9512   |
+| EfficientNet-B7         | 2          | 600        | 4                      | 0.97     | 0.9658    | 0.9748 | 0.9700   |
+| Vision Transformer (ViT)| 16         | 224        | –                      | 0.97     | 0.9658    | 0.9748 | 0.9700   |
+| MaxViT-tiny-rw-224      | 32         | 224        | –                      | 0.97     | 0.9741    | 0.9667 | 0.9692   |
+| MaxViT-small-tf-224     | 16         | 224        | –                      | 0.95     | 0.9440    | 0.9333 | 0.9331   |
+| MaxViT-base-tf-224      | 8          | 224        | –                      | 0.92     | 0.9023    | 0.9243 | 0.9110   |
 
  
 You can download or open the model notebook using the links below:
