@@ -12,7 +12,7 @@ The performance of multiple deep learning architectures was evaluated for maize 
 | Vision Transformer (ViT)|     16     |    224     |           –            | 0.97     | 0.9658    | 0.9748 | 0.9700   |
 | MaxViT-tiny-rw-224      |     32     |    224     |          –             | 0.97     | 0.9741    | 0.9667 | 0.9692   |
 | MaxViT-small-tf-224     |     16     |    224     |          –             | 0.95     | 0.9440    | 0.9333 | 0.9331   |
-| MaxViT-base-tf-224      |      8     |    224     |          –             | 0.92     | 0.9023    | 0.9243 | 0.9110   |
+| MaxViT-base-tf-224      |     8     |    224     |          –             | 0.92     | 0.9023    | 0.9243 | 0.9110   |
 
  
 You can download or open the model notebook using the links below:
