@@ -1,3 +1,5 @@
+# Maize Leaf Disease Classification under Real Agricultural Conditions Using CNN, Vision Transformer, and MaxViT Architectures
+
 ## Experimental Results
 
 The performance of multiple deep learning architectures was evaluated for maize leaf disease classification using a field-based and hybrid dataset. The experiments were conducted under different training configurations, including variations in batch size, input image resolution, and gradient accumulation. Model performance was assessed using Accuracy, Precision, Recall, and F1-score metrics. The comparative results demonstrate the effectiveness of transformer-based and hybrid CNN-transformer models in capturing disease-related visual patterns under real-field conditions.
@@ -14,10 +16,34 @@ The performance of multiple deep learning architectures was evaluated for maize 
 | MaxViT-small-tf-224     |     16     |    224     |          –             | 0.95     | 0.9440    | 0.9333 | 0.9331   |
 | MaxViT-base-tf-224      |     8     |    224     |          –             | 0.92     | 0.9023    | 0.9243 | 0.9110   |
 
- 
+
+## Utilized Models
+- Multi-Axis Vision Transformer (MaxViT-small)
+- Multi-Axis Vision Transformer (MaxViT-Tiny)
+- Multi-Axis Vision Transformer (MaxViT-base)
+- EfficientNet-B5
+- EfficientNet-B6
+- EfficientNet-B7
+-  Vision Transformer (ViT)
+
+
+## Dataset
+Tomato Leaf subset of the PlantVillage dataset.
 You can download or open the model notebook using the links below:
 
 - [🚀 Open in Google Colab](https://colab.research.google.com/github/RafiullahRafi/MaizeLeafDisease-Kandahar-HybridData-MaxViT/blob/main/MaxViT_model_on_with_and_without_background_data.ipynb)
 
 - [Download dataset here](https://github.com/RafiullahRafi/MaizeLeafDisease-Kandahar-HybridData-MaxViT/blame/main/Kdr_field_Dataset.zip)
 
+
+## Key Findings
+- EfficientNet models showed improved performance with increased depth and image resolution, with EfficientNet-B7 achieving the highest recall and F1-score among CNN-based models.
+- The Vision Transformer (ViT) delivered comparable results using smaller input images, demonstrating the effectiveness of self-attention for capturing global features.
+- MaxViT models provided stable and balanced performance, with MaxViT-tiny-rw-224 achieving the highest precision, while larger variants showed no further improvement.
+- Overall, transformer-based and hybrid architectures outperformed purely CNN-based models on the maize leaf disease dataset.
+
+
+## Author
+Rafiullah Rafi  
+Department of Agricultural Engineering, Afghanisatan National Agricultural Sciences and Technology University(ANASTU), Kandahar, Afghanistan  
+Email: r.rafi@anastu.edu.af
