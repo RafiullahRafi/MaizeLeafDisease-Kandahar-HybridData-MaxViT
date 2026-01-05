@@ -29,9 +29,6 @@ All models were trained using PyTorch and TIMM with customized training configur
 
 
 ## Dataset
-- You can download or open the model notebook using the links below:
-
-- [🚀 Open in Google Colab](https://colab.research.google.com/github/RafiullahRafi/MaizeLeafDisease-Kandahar-HybridData-MaxViT/blob/main/MaxViT_model_on_with_and_without_background_data.ipynb)
 
 - [Download dataset here](https://github.com/RafiullahRafi/MaizeLeafDisease-Kandahar-HybridData-MaxViT/blame/main/Kdr_field_Dataset.zip)
 
