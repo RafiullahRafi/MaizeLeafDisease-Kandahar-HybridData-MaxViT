@@ -7,9 +7,9 @@ The performance of multiple deep learning architectures was evaluated for maize 
 ## Utilized Models
 The following deep learning models were implemented and evaluated:
 
-- EfficientNet (B5, B6, B7)
+- EfficientNet (B5, B6, and B7)
 - Vision Transformer (ViT)
-- MaxViT (Tiny, Small, Base)
+- MaxViT (Tiny, Small, and Base)
 
 All models were trained using PyTorch and TIMM with customized training configurations.
 
