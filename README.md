@@ -5,13 +5,13 @@
 The performance of multiple deep learning architectures was evaluated for maize leaf disease classification using a field-based and hybrid dataset. The experiments were conducted under different training configurations, including variations in batch size, input image resolution, and gradient accumulation. Model performance was assessed using Accuracy, Precision, Recall, and F1-score metrics. The comparative results demonstrate the effectiveness of transformer-based and hybrid CNN-transformer models in capturing disease-related visual patterns under real-field conditions.
 
 ## Utilized Models
-- Multi-Axis Vision Transformer (MaxViT-small)
-- Multi-Axis Vision Transformer (MaxViT-Tiny)
-- Multi-Axis Vision Transformer (MaxViT-base)
+The following deep learning models were implemented and evaluated:
+
+- EfficientNet (B5, B6, B7)
 - Vision Transformer (ViT)
-- EfficientNet-B5
-- EfficientNet-B6
-- EfficientNet-B7
+- MaxViT (Tiny, Small, Base)
+
+All models were trained using PyTorch and TIMM with customized training configurations.
 
 
 ### Model Performance Comparison
