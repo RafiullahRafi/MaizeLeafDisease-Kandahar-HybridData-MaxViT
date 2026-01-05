@@ -6,13 +6,13 @@ The performance of multiple deep learning architectures was evaluated for maize 
 
 | Model                   | Batch Size | Image Size | Accumulation Gradient | Accuracy | Precision | Recall | F1-score |
 |-------------------------|------------|------------|------------------------|----------|-----------|--------|----------|
-| EfficientNet-B5         | 8          | 456        | 1                      | 0.94     | 0.9251    | 0.9329 | 0.9263   |
-| EfficientNet-B6         | 4          | 528        | 2                      | 0.96     | 0.9583    | 0.9500 | 0.9512   |
-| EfficientNet-B7         | 2          | 600        | 4                      | 0.97     | 0.9658    | 0.9748 | 0.9700   |
-| Vision Transformer (ViT)| 16         | 224        | –                      | 0.97     | 0.9658    | 0.9748 | 0.9700   |
-| MaxViT-tiny-rw-224      | 32         | 224        | –                      | 0.97     | 0.9741    | 0.9667 | 0.9692   |
-| MaxViT-small-tf-224     | 16         | 224        | –                      | 0.95     | 0.9440    | 0.9333 | 0.9331   |
-| MaxViT-base-tf-224      | 8          | 224        | –                      | 0.92     | 0.9023    | 0.9243 | 0.9110   |
+| EfficientNet-B5         |     8      |    456     |           1            | 0.94     | 0.9251    | 0.9329 | 0.9263   |
+| EfficientNet-B6         |     4      |    528     |           2            | 0.96     | 0.9583    | 0.9500 | 0.9512   |
+| EfficientNet-B7         |     2      |    600     |           4            | 0.97     | 0.9658    | 0.9748 | 0.9700   |
+| Vision Transformer (ViT)|     16     |    224     |           –            | 0.97     | 0.9658    | 0.9748 | 0.9700   |
+| MaxViT-tiny-rw-224      |     32     |    224     |          –             | 0.97     | 0.9741    | 0.9667 | 0.9692   |
+| MaxViT-small-tf-224     |     16     |    224     |          –             | 0.95     | 0.9440    | 0.9333 | 0.9331   |
+| MaxViT-base-tf-224      |      8     |    224     |          –             | 0.92     | 0.9023    | 0.9243 | 0.9110   |
 
  
 You can download or open the model notebook using the links below:
